@@ -1,0 +1,11 @@
+print("Nama = Adhitya Pratama")
+print("Nim = 04119016")
+print("Prodi = Sistem komputer")
+print("++++++++++++++++++++++++\n")
+print("Masukan Kalimat : ")
+kalimat = input()
+dipecah = kalimat.split()
+print(dipecah)
+for kata in dipecah:
+  print(kata.capitalize())
+print("Terdeksi Ada {} kata".format(len(dipecah)))
